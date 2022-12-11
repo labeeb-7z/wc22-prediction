@@ -18,7 +18,7 @@ There are 2 aspects to this
 I decided to go with Team based features as that, I believe, is a better representation of a team's strength in this competition.
 After taking some external opinions and some trial error, I finally decided the following inputs - 
 
-- [`Elo Ratings`](https://en.wikipedia.org/wiki/Elo_rating_system) 
+- [Elo Ratings](https://en.wikipedia.org/wiki/Elo_rating_system) 
 
 ![elo ratings of top 10 teams](assets/elo.png)
 -  `Point difference` - points assigned to each team by FIFA
