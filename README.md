@@ -9,7 +9,7 @@ Treating football matches as a classification problem and getting the probabilit
 ## Approach
   Decide input, output features of the model -> Find dataset -> Decide which Algorithm to use.
 ### Input and outputs of the Model
-I can't even list down all the factors which effect the result of a football match let alone use all of them. I had to chose some major ones.
+No one can list down all the factors which effect the result of a football match let alone use all of them. I had to chose some major ones.
 There are 2 aspects to this
  
  - Overall team based features - historical performance in wc, team ranking, h2h results with opponent, recent team performance, stage at which match is played (friendlies,wc,etc).
@@ -26,7 +26,7 @@ After taking some external opinions and some trial error, I finally decided the 
 
 emphasis on average, exact FIFA rankings are plain stupid and not reliable. Average of both the teams represents the recent performance and consistency.
 
-- `Rank Differece` ![`Rank difference`](assets/rank-diff.png) - a base representation of both team's strength
+- `Rank Differece` <img src="assets/rank-diff.png"> - a base representation of both team's strength
 - `Stake` - the stage at which the match is played. Friendlies were ignored.
 
 For outputs initially probability of all 3 scenarios - win, draw, lose were considered. In some cases when both teams had a competitive elo rating, the draw probability was > 0.5 (fra vs eng for instance had 0.78).
